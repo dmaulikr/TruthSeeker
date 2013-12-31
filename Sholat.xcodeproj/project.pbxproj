@@ -16,6 +16,7 @@
 		D0F503D21872C77800CF541A /* netraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F503C81872C77800CF541A /* netraAppDelegate.m */; };
 		D0F503D41872C77800CF541A /* Sholat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0F503CB1872C77800CF541A /* Sholat.xcdatamodeld */; };
 		D0F503D81872C95600CF541A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F503C31872C77800CF541A /* InfoPlist.strings */; };
+		D0F503DD1872DA1A00CF541A /* netra.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F503DC1872DA1A00CF541A /* netra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		D0F503C91872C77800CF541A /* Sholat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sholat-Info.plist"; sourceTree = "<group>"; };
 		D0F503CA1872C77800CF541A /* Sholat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Sholat-Prefix.pch"; sourceTree = "<group>"; };
 		D0F503CC1872C77800CF541A /* Sholat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sholat.xcdatamodel; sourceTree = "<group>"; };
+		D0F503DB1872DA1A00CF541A /* netra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netra.h; sourceTree = "<group>"; };
+		D0F503DC1872DA1A00CF541A /* netra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = netra.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		D0F503C11872C77800CF541A /* Sholat */ = {
 			isa = PBXGroup;
 			children = (
+				D0F503D91872D9F500CF541A /* shared */,
 				D0F503D51872C78D00CF541A /* controller */,
 				D0F503C21872C77800CF541A /* app */,
 				D0F503CD1872C77800CF541A /* model */,
@@ -93,6 +97,7 @@
 		D0F503C21872C77800CF541A /* app */ = {
 			isa = PBXGroup;
 			children = (
+				D0F503DA1872DA0900CF541A /* helper */,
 				D0F503C31872C77800CF541A /* InfoPlist.strings */,
 				D0F503C51872C77800CF541A /* Images.xcassets */,
 				D0F503C61872C77800CF541A /* main.m */,
@@ -124,6 +129,22 @@
 			children = (
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		D0F503D91872D9F500CF541A /* shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		D0F503DA1872DA0900CF541A /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				D0F503DB1872DA1A00CF541A /* netra.h */,
+				D0F503DC1872DA1A00CF541A /* netra.m */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F503DD1872DA1A00CF541A /* netra.m in Sources */,
 				D0F503D41872C77800CF541A /* Sholat.xcdatamodeld in Sources */,
 				D0F503D11872C77800CF541A /* main.m in Sources */,
 				D0F503D21872C77800CF541A /* netraAppDelegate.m in Sources */,
