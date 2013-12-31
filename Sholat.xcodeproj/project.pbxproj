@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F5038D1872C73C00CF541A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F5038C1872C73C00CF541A /* Foundation.framework */; };
+		D0F5038F1872C73C00CF541A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F5038E1872C73C00CF541A /* CoreGraphics.framework */; };
+		D0F503911872C73C00CF541A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F503901872C73C00CF541A /* UIKit.framework */; };
+		D0F503931872C73C00CF541A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F503921872C73C00CF541A /* CoreData.framework */; };
+		D0F503991872C73C00CF541A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F503971872C73C00CF541A /* InfoPlist.strings */; };
+		D0F5039B1872C73C00CF541A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5039A1872C73C00CF541A /* main.m */; };
+		D0F5039F1872C73C00CF541A /* netraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F5039E1872C73C00CF541A /* netraAppDelegate.m */; };
+		D0F503A21872C73C00CF541A /* Sholat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0F503A01872C73C00CF541A /* Sholat.xcdatamodeld */; };
+		D0F503A41872C73C00CF541A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F503A31872C73C00CF541A /* Images.xcassets */; };
+		D0F503AB1872C73C00CF541A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F503AA1872C73C00CF541A /* XCTest.framework */; };
+		D0F503AC1872C73C00CF541A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F5038C1872C73C00CF541A /* Foundation.framework */; };
+		D0F503AD1872C73C00CF541A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F503901872C73C00CF541A /* UIKit.framework */; };
+		D0F503AE1872C73C00CF541A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F503921872C73C00CF541A /* CoreData.framework */; };
+		D0F503B61872C73C00CF541A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F503B41872C73C00CF541A /* InfoPlist.strings */; };
+		D0F503B81872C73C00CF541A /* SholatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F503B71872C73C00CF541A /* SholatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0F503AF1872C73C00CF541A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0F503811872C73B00CF541A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F503881872C73B00CF541A;
+			remoteInfo = Sholat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0F503891872C73C00CF541A /* Sholat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sholat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F5038C1872C73C00CF541A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0F5038E1872C73C00CF541A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0F503901872C73C00CF541A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0F503921872C73C00CF541A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0F503961872C73C00CF541A /* Sholat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sholat-Info.plist"; sourceTree = "<group>"; };
+		D0F503981872C73C00CF541A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0F5039A1872C73C00CF541A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F5039C1872C73C00CF541A /* Sholat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sholat-Prefix.pch"; sourceTree = "<group>"; };
+		D0F5039D1872C73C00CF541A /* netraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netraAppDelegate.h; sourceTree = "<group>"; };
+		D0F5039E1872C73C00CF541A /* netraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netraAppDelegate.m; sourceTree = "<group>"; };
+		D0F503A11872C73C00CF541A /* Sholat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sholat.xcdatamodel; sourceTree = "<group>"; };
+		D0F503A31872C73C00CF541A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0F503A91872C73C00CF541A /* SholatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SholatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F503AA1872C73C00CF541A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0F503B31872C73C00CF541A /* SholatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SholatTests-Info.plist"; sourceTree = "<group>"; };
+		D0F503B51872C73C00CF541A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0F503B71872C73C00CF541A /* SholatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SholatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F503861872C73B00CF541A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F5038F1872C73C00CF541A /* CoreGraphics.framework in Frameworks */,
+				D0F503931872C73C00CF541A /* CoreData.framework in Frameworks */,
+				D0F503911872C73C00CF541A /* UIKit.framework in Frameworks */,
+				D0F5038D1872C73C00CF541A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F503A61872C73C00CF541A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F503AB1872C73C00CF541A /* XCTest.framework in Frameworks */,
+				D0F503AE1872C73C00CF541A /* CoreData.framework in Frameworks */,
+				D0F503AD1872C73C00CF541A /* UIKit.framework in Frameworks */,
+				D0F503AC1872C73C00CF541A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F503801872C73B00CF541A = {
+			isa = PBXGroup;
+			children = (
+				D0F503941872C73C00CF541A /* Sholat */,
+				D0F503B11872C73C00CF541A /* SholatTests */,
+				D0F5038B1872C73C00CF541A /* Frameworks */,
+				D0F5038A1872C73C00CF541A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F5038A1872C73C00CF541A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F503891872C73C00CF541A /* Sholat.app */,
+				D0F503A91872C73C00CF541A /* SholatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F5038B1872C73C00CF541A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5038C1872C73C00CF541A /* Foundation.framework */,
+				D0F5038E1872C73C00CF541A /* CoreGraphics.framework */,
+				D0F503901872C73C00CF541A /* UIKit.framework */,
+				D0F503921872C73C00CF541A /* CoreData.framework */,
+				D0F503AA1872C73C00CF541A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0F503941872C73C00CF541A /* Sholat */ = {
+			isa = PBXGroup;
+			children = (
+				D0F5039D1872C73C00CF541A /* netraAppDelegate.h */,
+				D0F5039E1872C73C00CF541A /* netraAppDelegate.m */,
+				D0F503A31872C73C00CF541A /* Images.xcassets */,
+				D0F503A01872C73C00CF541A /* Sholat.xcdatamodeld */,
+				D0F503951872C73C00CF541A /* Supporting Files */,
+			);
+			path = Sholat;
+			sourceTree = "<group>";
+		};
+		D0F503951872C73C00CF541A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F503961872C73C00CF541A /* Sholat-Info.plist */,
+				D0F503971872C73C00CF541A /* InfoPlist.strings */,
+				D0F5039A1872C73C00CF541A /* main.m */,
+				D0F5039C1872C73C00CF541A /* Sholat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F503B11872C73C00CF541A /* SholatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0F503B71872C73C00CF541A /* SholatTests.m */,
+				D0F503B21872C73C00CF541A /* Supporting Files */,
+			);
+			path = SholatTests;
+			sourceTree = "<group>";
+		};
+		D0F503B21872C73C00CF541A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F503B31872C73C00CF541A /* SholatTests-Info.plist */,
+				D0F503B41872C73C00CF541A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F503881872C73B00CF541A /* Sholat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F503BB1872C73C00CF541A /* Build configuration list for PBXNativeTarget "Sholat" */;
+			buildPhases = (
+				D0F503851872C73B00CF541A /* Sources */,
+				D0F503861872C73B00CF541A /* Frameworks */,
+				D0F503871872C73B00CF541A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sholat;
+			productName = Sholat;
+			productReference = D0F503891872C73C00CF541A /* Sholat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0F503A81872C73C00CF541A /* SholatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F503BE1872C73C00CF541A /* Build configuration list for PBXNativeTarget "SholatTests" */;
+			buildPhases = (
+				D0F503A51872C73C00CF541A /* Sources */,
+				D0F503A61872C73C00CF541A /* Frameworks */,
+				D0F503A71872C73C00CF541A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0F503B01872C73C00CF541A /* PBXTargetDependency */,
+			);
+			name = SholatTests;
+			productName = SholatTests;
+			productReference = D0F503A91872C73C00CF541A /* SholatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F503811872C73B00CF541A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = netra;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = netra;
+				TargetAttributes = {
+					D0F503A81872C73C00CF541A = {
+						TestTargetID = D0F503881872C73B00CF541A;
+					};
+				};
+			};
+			buildConfigurationList = D0F503841872C73B00CF541A /* Build configuration list for PBXProject "Sholat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0F503801872C73B00CF541A;
+			productRefGroup = D0F5038A1872C73C00CF541A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F503881872C73B00CF541A /* Sholat */,
+				D0F503A81872C73C00CF541A /* SholatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F503871872C73B00CF541A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F503991872C73C00CF541A /* InfoPlist.strings in Resources */,
+				D0F503A41872C73C00CF541A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F503A71872C73C00CF541A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F503B61872C73C00CF541A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F503851872C73B00CF541A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F503A21872C73C00CF541A /* Sholat.xcdatamodeld in Sources */,
+				D0F5039B1872C73C00CF541A /* main.m in Sources */,
+				D0F5039F1872C73C00CF541A /* netraAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F503A51872C73C00CF541A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F503B81872C73C00CF541A /* SholatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0F503B01872C73C00CF541A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0F503881872C73B00CF541A /* Sholat */;
+			targetProxy = D0F503AF1872C73C00CF541A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0F503971872C73C00CF541A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F503981872C73C00CF541A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0F503B41872C73C00CF541A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F503B51872C73C00CF541A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F503B91872C73C00CF541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0F503BA1872C73C00CF541A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F503BC1872C73C00CF541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sholat/Sholat-Prefix.pch";
+				INFOPLIST_FILE = "Sholat/Sholat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0F503BD1872C73C00CF541A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sholat/Sholat-Prefix.pch";
+				INFOPLIST_FILE = "Sholat/Sholat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0F503BF1872C73C00CF541A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sholat.app/Sholat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sholat/Sholat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SholatTests/SholatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0F503C01872C73C00CF541A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sholat.app/Sholat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sholat/Sholat-Prefix.pch";
+				INFOPLIST_FILE = "SholatTests/SholatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F503841872C73B00CF541A /* Build configuration list for PBXProject "Sholat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F503B91872C73C00CF541A /* Debug */,
+				D0F503BA1872C73C00CF541A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F503BB1872C73C00CF541A /* Build configuration list for PBXNativeTarget "Sholat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F503BC1872C73C00CF541A /* Debug */,
+				D0F503BD1872C73C00CF541A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0F503BE1872C73C00CF541A /* Build configuration list for PBXNativeTarget "SholatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F503BF1872C73C00CF541A /* Debug */,
+				D0F503C01872C73C00CF541A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0F503A01872C73C00CF541A /* Sholat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0F503A11872C73C00CF541A /* Sholat.xcdatamodel */,
+			);
+			currentVersion = D0F503A11872C73C00CF541A /* Sholat.xcdatamodel */;
+			path = Sholat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0F503811872C73B00CF541A /* Project object */;
+}
